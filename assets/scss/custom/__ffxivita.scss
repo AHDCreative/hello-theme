@@ -1059,9 +1059,11 @@ aside {
 	cursor: pointer;
 	color: #585858;
 	background: rgba(0, 0, 0, 0.1);
+
 	&:hover {
 	  background: rgba(0, 0, 0, 0.05);
 	}
+
 	.active {
 	  color: $xivita__orange;
 	  background: transparent;
@@ -1159,17 +1161,22 @@ aside {
 .mahjong__navi__inner {
   padding-bottom: 32px;
 }
+
 .mahjong__navi__list {
   margin-bottom: 12px;
+
   dd {
 	display: none;
+
 	.show {
 	  display: block;
 	}
   }
 }
+
 .mahjong__navi__category {
   position: relative;
+
   &:after {
 	content: "";
 	display: block;
@@ -1184,6 +1191,7 @@ aside {
 	-o-background-size: 16px 16px;
 	-webkit-background-size: 16px 16px;
 	background-size: 16px 16px;
+
 	a {
 	  padding-right: 32px;
 	  background: #f3f3f3;
@@ -1192,19 +1200,23 @@ aside {
 	  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
 	  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
 	  cursor: pointer;
+
 	  &:hover {
 		background: $xivita__white;
 	  }
+
 	  &:active {
 		background: #f3f3f3;
 		-moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25) inset;
 		-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25) inset;
 		box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25) inset;
 	  }
+
 	  .active {
 		color: $xivita__orange;
 	  }
 	}
+
 	span {
 	  padding-right: 32px;
 	  background: #f3f3f3;
@@ -1213,20 +1225,24 @@ aside {
 	  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
 	  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
 	  cursor: pointer;
+
 	  &:hover {
 		background: $xivita__white;
 	  }
+
 	  &:active {
 		background: #f3f3f3;
 		-moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25) inset;
 		-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25) inset;
 		box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25) inset;
 	  }
+
 	  .active {
 		color: $xivita__orange;
 	  }
 	}
   }
+
   .selected {
 	&:after {
 	  moz-transform: rotate(180deg);
@@ -1235,20 +1251,24 @@ aside {
 	  transform: rotate(180deg);
 	}
   }
+
   .no__icon {
 	&:after {
 	  display: none;
 	}
   }
 }
+
 .mahjong__content {
   width: 640px;
   float: right;
 }
+
 .mahjong__page_title {
   display: block;
   padding-bottom: 16px;
 }
+
 .mahjong__title {
   font-size: 24px;
   color: $xivita__gs;
@@ -1257,12 +1277,14 @@ aside {
   text-align: left;
   position: relative;
 }
+
 .mahjong__lead {
   position: relative;
   margin: 16px 0 56px;
   padding: 0 16px;
   background: url(https://d3ik98x1qocexr.cloudfront.net/img/wI_ug2SIfgLzIjIe3u28ueJF9c.png) repeat-y top center;
   font-size: 14px;
+
   &:before {
 	position: absolute;
 	left: 0;
@@ -1273,6 +1295,7 @@ aside {
 	height: 16px;
 	display: block;
   }
+
   &:after {
 	position: absolute;
 	left: 0;
@@ -1284,36 +1307,44 @@ aside {
 	display: block;
   }
 }
+
 .mahjong__image {
   text-align: center;
   margin-bottom: 16px;
 }
+
 .mahjong__text__center {
   text-align: center;
   font-weight: bold;
   margin-bottom: 0 !important;
 }
+
 .mahjong__rule {
   font-size: 14px;
   margin-bottom: 32px;
+
   dt {
 	float: left;
 	font-size: inherit;
   }
+
   dd {
 	margin-left: 1em;
 	font-size: inherit;
   }
 }
+
 .mahjong__list {
   margin: 0 0 16px 0;
   height: 1%;
+
   dt {
 	font-size: 14px;
 	position: relative;
 	font-weight: bold;
 	margin-bottom: 4px;
 	padding-left: 1em;
+
 	&:before {
 	  content: "";
 	  display: block;
@@ -1327,11 +1358,13 @@ aside {
 	  margin-top: -4px;
 	}
   }
+
   dd {
 	font-size: 14px;
 	margin-bottom: 16px;
   }
 }
+
 .mahjong__faq {
   dt {
 	position: relative;
@@ -1341,6 +1374,7 @@ aside {
 	font-weight: bold;
 	vertical-align: text-top;
 	margin-bottom: 8px;
+
 	.lc {
 	  display: block;
 	  position: absolute;
@@ -1352,28 +1386,35 @@ aside {
 	  font-family: "Noto Sans", sans-serif;
 	  vertical-align: text-top;
 	}
+
 	b {
 	  font-size: inherit;
 	}
+
 	strong {
 	  font-size: inherit;
 	}
+
 	a {
 	  font-size: inherit;
 	}
+
 	span {
 	  font-size: inherit;
 	}
+
 	i {
 	  font-size: inherit;
 	}
   }
+
   dd {
 	margin-bottom: 32px;
 	position: relative;
 	padding-left: 24px;
 	font-size: 14px;
 	vertical-align: text-top;
+
 	.ic {
 	  display: block;
 	  position: absolute;
@@ -1385,51 +1426,61 @@ aside {
 	  font-family: "Noto Sans", sans-serif;
 	  vertical-align: text-top;
 	}
+
 	b {
 	  font-size: inherit;
 	}
+
 	strong {
 	  font-size: inherit;
 	}
+
 	a {
 	  font-size: inherit;
 	}
+
 	span {
 	  font-size: inherit;
 	}
+
 	i {
 	  font-size: inherit;
 	}
   }
 }
+
 .mahjong__sm_head {
   position: relative;
   margin-bottom: 4px;
   font-size: 14px;
   font-weight: bold;
 }
+
 .yaku {
   li {
 	margin-bottom: 32px;
   }
 }
+
 .yaku__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
   margin-bottom: 8px;
-   h4 {
-	 font-size: 16px;
-	 font-weight: bold;
-	 color: #585858;
-	 line-height: 1;
-	 -webkit-box-flex: 1;
-	 -moz-box-flex: 1;
-	 box-flex: 1;
-	 -webkit-flex-grow: 1;
-	 flex-grow: 1;
-   }
+
+  h4 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #585858;
+	line-height: 1;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+  }
+
   p {
 	font-size: 12px;
 	color: #585858;
@@ -1437,16 +1488,19 @@ aside {
 	margin-bottom: 0;
   }
 }
+
 .yaku__detail {
   background: rgba(89, 81, 76, 0.05);
   border-radius: 8px;
   padding: 16px 16px 0;
   height: 1%;
+
   p {
 	margin-bottom: 0;
 	padding-bottom: 16px;
   }
 }
+
 .yaku__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1455,6 +1509,7 @@ aside {
   margin-bottom: 16px;
   padding-bottom: 8px;
   border-bottom: 1px solid #b5b5b3;
+
   p {
 	margin: 0 16px 0 0;
 	font-size: 14px;
@@ -1462,6 +1517,7 @@ aside {
 	padding-bottom: 0;
   }
 }
+
 .yaku__example {
   background: #f2f2f2;
   padding: 8px;
@@ -1469,19 +1525,23 @@ aside {
   margin-bottom: 16px;
   line-height: 1;
   font-size: 14px !important;
+
   img {
 	display: block;
 	margin: 0 auto;
   }
 }
+
 .pg__list-circle__title {
   position: relative;
+
   .anchor-point {
 	position: absolute;
 	top: -101px;
 	display: block;
   }
 }
+
 @media screen and (max-width: 980px) {
   .mahjong__navi.fixed {
 	position: fixed;
@@ -1490,6 +1550,7 @@ aside {
 	margin-left: 0;
   }
 }
+
 //Quests
 .quest {
   margin: 25px 100px 75px 10px !important;

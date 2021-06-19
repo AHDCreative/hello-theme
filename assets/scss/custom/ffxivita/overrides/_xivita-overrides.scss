@@ -81,3 +81,14 @@ aside {
   color: $xivita__red;
   font-size: inherit;
 }
+.clearfix{
+  &:after {
+	content: " ";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	font-size: 0.1em;
+	line-height: 0;
+	clear: both;
+  }
+}

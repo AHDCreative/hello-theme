@@ -1,0 +1,51 @@
+@import "../mixins/xivita-colors";
+
+.page {
+  &-id {
+	&-20058 {
+	  .entry-title {
+		display: none !important;
+	  }
+	}
+
+	&-21019 {
+	  .entry-title {
+		display: none !important;
+	  }
+	}
+
+	&-20580 {
+	  .entry-title {
+		display: none !important;
+	  }
+	}
+  }
+}
+
+.post {
+  &-id {
+	&-21311 {
+	  h4 {
+		text-decoration: underline;
+		color: $xivita__purple;
+		list-style: none;
+		text-transform: capitalize;
+		font-weight: bolder;
+	  }
+	}
+
+	&-20002 {
+	  li {
+		list-style: none;
+
+		a {
+		  text-decoration: underline;
+		}
+
+		&:hover {
+		  text-decoration: underline;
+		}
+	  }
+	}
+  }
+}

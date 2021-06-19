@@ -1,0 +1,31 @@
+.xy {
+  &-note {
+	background-color: $xivita__dark-grey;
+	border-radius: 1em;
+	margin-top: 1rem;
+	color: $xivita__white;
+
+	.note {
+	  &-container {
+		padding: 1em 2em;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	  }
+	}
+  }
+
+  &-icon {
+	.icon {
+	  &-note {
+		display: inline-block;
+		margin-right: 2em;
+
+		svg {
+		  height: 6em;
+		  width: auto;
+		}
+	  }
+	}
+  }
+}

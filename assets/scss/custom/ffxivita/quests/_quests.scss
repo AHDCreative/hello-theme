@@ -1,0 +1,45 @@
+.quest {
+  margin: 25px 100px 75px 10px !important;
+  color: $xivita__brown !important;
+  list-style: none;
+  padding: 16px 0 0;
+  word-break: normal;
+  word-wrap: break-word;
+  margin-bottom: 60px !important;
+
+  li {
+	clear: both;
+	padding-bottom: 10px;
+	list-style: none !important;
+  }
+}
+
+.mainsenario {
+  &:before {
+	border: none;
+	background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/13ab623e.png) no-repeat 0 0 !important;
+	content: '';
+	position: relative;
+	top: -4px;
+	width: 40px;
+	height: 40px;
+	padding-left: 35px;
+	vertical-align: bottom;
+	font-size: 30px;
+  }
+}
+
+.sidequest {
+  &:before {
+	border: none;
+	background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/cc18370c.png) no-repeat 0 0 !important;
+	content: ' ';
+	position: relative;
+	top: -4px;
+	width: 30px;
+	height: 30px;
+	padding-left: 25px;
+	vertical-align: bottom;
+	font-size: 25px;
+  }
+}

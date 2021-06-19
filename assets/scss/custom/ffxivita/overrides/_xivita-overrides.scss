@@ -1,0 +1,83 @@
+@media screen and (max-width: 980px) {
+  .mahjong {
+	&__navi {
+	  .fixed {
+
+		position: fixed;
+		top: 101px;
+		left: 0;
+		margin-left: 0;
+	  }
+	}
+  }
+}
+
+.article {
+  &-post {
+	h1, h2, h3, h4, h5, h6 {
+	  text-decoration: none !important;
+	}
+  }
+}
+
+.rss-widget-icon {
+  display: none !important;
+}
+
+aside {
+  .widget_rss {
+	li {
+	  &:before {
+		margin-right: 10px;
+		content: '\f0ad';
+	  }
+	}
+  }
+}
+
+.wp-admin {
+  &-bar {
+	&-stats {
+	  display: none !important;
+	}
+  }
+}
+
+#wp-admin {
+  &-bar {
+	&-wp {
+	  &-logo {
+		display: none !important;
+	  }
+	}
+
+	&-search {
+	  display: none !important;
+	}
+
+	&-new {
+	  &-content {
+		display: none !important;
+	  }
+	}
+
+	&-stats {
+	  display: none !important;
+	}
+  }
+}
+
+#search-form {
+  display: none;
+}
+
+#wpnt-notes-unread-count {
+  display: none !important;
+}
+.verde {
+  color: $xivita__green !important;
+}
+.info_note {
+  color: $xivita__red;
+  font-size: inherit;
+}

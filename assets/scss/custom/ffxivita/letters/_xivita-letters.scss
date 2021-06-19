@@ -1,0 +1,44 @@
+.spazio {
+  &-live {
+	margin-bottom: 16px !important;
+  }
+}
+
+.titolo {
+  &_live {
+	&_grande {
+	  padding-bottom: 2px !important;
+	  color: $xivita__green-2 !important;
+	  font-weight: normal;
+	  font-size: $font-size-base;
+	  line-height: 1.2;
+	  border-bottom: 3px solid $xivita__green;
+	}
+	&_piccolo {
+	  margin-bottom: 8px;
+	  font-weight: bold;
+	}
+  }
+}
+.testo {
+  &_live {
+	font-family: $font-family-base;
+	margin-bottom: 16px;
+	font-size: $font-size-base;
+	line-height: 1.5;
+  }
+}
+.lista {
+  &_live {
+	ul {
+	  list-style: none;
+	}
+
+	li {
+	  padding: 0 0 0 28px;
+	  margin: 0 0 16px 0;
+	  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/4j9I1nezY-vraAi990Weu9Q1L4.svg) no-repeat 6px 1px;
+	  background-size: 16px 16px;
+	}
+  }
+}

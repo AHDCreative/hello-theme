@@ -1,0 +1,57 @@
+.gc {
+  clear: both;
+  font-size: 40px !important;
+
+  p {
+	font-size: 20px !important;
+  }
+
+  h2 {
+	font-size: 32px !important;
+  }
+}
+
+.mael {
+  &:before {
+	border: none;
+	background: url(https://i2.wp.com/ffxivita.it/wp-content/uploads/2020/05/f7045ed8.png?ssl=1) no-repeat 0 0 !important;
+	content: '   ';
+	position: relative;
+	top: -2px;
+	width: 50px;
+	height: 50px;
+	padding-left: 50px;
+	font-size: 50px;
+	clear: both;
+  }
+}
+
+.twin {
+  &:before {
+	border: none;
+	background: url(https://i2.wp.com/ffxivita.it/wp-content/uploads/2020/05/5c5c325f.png?ssl=1) no-repeat 0 0 !important;
+	content: '   ';
+	position: relative;
+	top: -2px;
+	width: 50px;
+	height: 50px;
+	padding-left: 50px;
+	font-size: 50px;
+	clear: both;
+  }
+}
+
+.immortal {
+  &:before {
+	border: none;
+	background: url(https://i2.wp.com/ffxivita.it/wp-content/uploads/2020/05/617a046a.png?ssl=1) no-repeat 0 0 !important;
+	content: '   ';
+	position: relative;
+	top: -2pxpx;
+	width: 50px;
+	height: 50px;
+	padding-left: 50px;
+	font-size: 50px;
+	clear: both;
+  }
+}

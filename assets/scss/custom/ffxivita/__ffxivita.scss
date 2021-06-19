@@ -1,0 +1,154 @@
+@import "mixins";
+@import "overrides";
+@import "globals";
+@import "goldsaucer";
+@import "home";
+@import "letters";
+@import "quests";
+@import "tomestones";
+@import "cities_grand-companies";
+@import "events";
+
+// Chocobo Items Table Background
+
+.positivo {
+  background-color: $xivita__dark-green;
+  color: $xivita__white;
+  text-align: center;
+}
+
+.negativo {
+  background-color: $xivita__dark-red;
+  color: $xivita__white;
+  text-align: center;
+}
+
+.author-social {
+  a {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+  }
+}
+
+// Valentione
+
+.lista_decorazioni {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+  padding: 2px;
+
+  ul {
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+	padding-inline-start: 40px;
+  }
+
+  li {
+	width: 288px;
+	list-style: none;
+	margin-right: 10px;
+
+	img {
+	  width: 100%;
+	  height: auto;
+	  display: block;
+	}
+  }
+}
+
+.info__lead {
+  margin-bottom: 32px;
+  font-size: 18px;
+  font-weight: bold;
+  color: $xivita__pink;
+  text-align: center;
+}
+
+.info__decorazioni {
+  display: flex;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 48px;
+}
+
+.box__decorazione__evento {
+  padding: 12px 32px 10px;
+  width: 50%;
+  box-sizing: border-box;
+  background: linear-gradient(to right, $xivita__gradient1__color-1 0%, $xivita__gradient1__color-2 100%);
+
+  &:nth-child(2) {
+	background: linear-gradient(to right, $xivita__gradient2__color-1 0%, $xivita__gradient2__color-2 100%);
+  }
+
+  p {
+	margin-bottom: 6px;
+	font-size: 18px;
+	font-weight: bold;
+	color: $xivita__white;
+	text-align: center;
+	line-height: 1.5;
+	font-feature-settings: "palt";
+	font-family: 'Noto Sans', sans-serif;
+  }
+}
+
+.reward__item--title {
+  background: url(https://img.finalfantasyxiv.com/lds/h/I/xL7vDrSPSkm95yIg95YkUowkCY.png) left top no-repeat;
+  background-size: 24px 24px;
+  padding: 0 0 0 28px;
+  line-height: 24px;
+  color: $xivita__pink;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 8px;
+}
+
+// Eden Authors Box
+.xivita-author {
+  .author-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+  }
+
+  .author-entry {
+	flex: 0 1 22em;
+	margin: .5rem;
+	padding: 1em;
+	display: flex;
+	border-radius: 1em;
+	max-width: 80vw;
+  }
+
+  .author-avatar {
+	width: 6em;
+	height: auto;
+	padding: .5em;
+
+	img {
+	  border-radius: 50%;
+	}
+  }
+
+  .author-details-name {
+	font-family: Dragon Fire, Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, "Droid Serif", Times, "Source Serif Pro", serif;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+  }
+
+  .author-details-character {
+	display: block;
+	font-size: .8em;
+  }
+
+  .author-social {
+	font-size: 1.35em;
+	margin-top: .5rem;
+  }
+}

@@ -1,0 +1,14 @@
+.pg {
+  &__list{
+	&-circle{
+	  &__title {
+		position: relative;
+		.anchor_point {
+		  position: absolute;
+		  top: -101px;
+		  display: block;
+		}
+	  }
+	}
+  }
+}

@@ -1,0 +1,41 @@
+.txt {
+  &-rarity{
+	&_common {
+	  color: $xivita__txt-rarity_common;
+	}
+	&_uncommon {
+	  color: $xivita__txt-rarity_uncommon;
+	}
+	&_magic {
+	  color: $xivita__txt-rarity_magic;
+	}
+	&_artifact {
+	  color: $xivita__txt-rarity_artifact;
+	}
+	&_legend {
+	  color: $xivita__txt-rarity_legend;
+	}
+	&_epic {
+	  color: $xivita__txt-rarity_epic;
+	}
+	&_rare {
+	  color: $xivita__txt-rarity_rare;
+	}
+  }
+  &_durability{
+	&_calc {
+	  &_000 {
+		color: $xivita__txt_durability_calc_000;
+	  }
+	  &_010 {
+		color: $xivita__txt_durability_calc_010;
+	  }
+	  &_099 {
+		color: $xivita__txt_durability_calc_099;
+	  }
+	  &_100 {
+		color: $xivita__txt_durability_calc_100;
+	  }
+	}
+  }
+}

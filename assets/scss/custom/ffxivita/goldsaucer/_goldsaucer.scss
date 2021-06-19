@@ -1,0 +1,653 @@
+.goldsaucer {
+  &__visual {
+	margin-bottom: 16px;
+	background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/VigY6QjNn2m8mYaRQNc7Srxwwc.jpg) no-repeat top center $xivita__goldsaucer__visual;
+	position: relative;
+
+	.social__btn {
+	  padding-top: 10px;
+	}
+
+	h1 {
+	  position: absolute;
+	  bottom: 0;
+	  left: 0;
+	}
+
+	p {
+	  width: 960px;
+	  margin: 0 auto;
+	  text-align: center;
+	  font-size: 14px;
+	}
+  }
+
+  &-inner {
+	position: relative;
+	width: 960px;
+	height: 360px;
+	margin: 0 auto;
+  }
+
+  &__visual-text {
+	padding: 10px;
+	background: $xivita__gold_saucer_visual-text-background;
+	color: $xivita__gold_saucer_visual-text-color;
+  }
+
+  &__wrapper {
+	width: 800px;
+	height: 1%;
+	margin: 0 auto;
+	padding-bottom: 120px;
+	position: relative;
+	font-size: 14px;
+
+	a, p, li, span, strong, i {
+	  font-size: inherit;
+	}
+
+	p {
+	  margin-bottom: 16px;
+	}
+
+	a {
+	  color: $xivita__blue;
+	}
+
+	.txt_red {
+	  color: $xivita__red !important;
+	}
+  }
+
+  &__social {
+	padding: 8px 0 16px;
+  }
+
+  &__title {
+	margin: 0 0 8px -40px;
+
+	&-toc {
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-align-items: center;
+	  align-items: center;
+	  width: 640px;
+	  margin: 0 auto;
+
+	  &__img {
+		width: 340px;
+		margin-right: 16px;
+	  }
+
+	  &__menu {
+		width: 284px;
+	  }
+	}
+  }
+
+  &__sm_head {
+	position: relative;
+	margin-bottom: 16px;
+	font-size: 14px;
+	font-weight: bold;
+
+	.icon_arcana {
+	  &:after {
+		background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/juCjg6OFG8mJgDMoMOVTYMD7lE.png) no-repeat 0 0;
+		background-size: 32px 32px;
+	  }
+	}
+
+	.icon_gates {
+	  &:after {
+		background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/1IrBlVjKb6rKBzrKfiToKDN60M.png) no-repeat 0 0;
+		background-size: 32px 32px;
+	  }
+	}
+
+	.icon_shields {
+	  &:after {
+		background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/WseDv1sA93DAc36uxc01gWQsXM.png) no-repeat 0 0;
+		background-size: 32px 32px;
+	  }
+	}
+  }
+
+  &__sm_circle {
+	position: relative;
+	margin-left: 1em;
+	font-size: 14px;
+	font-weight: bold;
+
+	&:after {
+	  content: "";
+	  display: block;
+	  width: 8px;
+	  height: 8px;
+	  border-radius: 4px;
+	  background: $xivita__grey;
+	  position: absolute;
+	  left: -12px;
+	  top: 6px;
+	}
+  }
+
+  &__icon {
+	padding-left: 36px;
+
+	&:after {
+	  content: "";
+	  position: absolute;
+	  top: 50%;
+	  left: 0;
+	  width: 32px;
+	  height: 32px;
+	  margin-top: -16px;
+	}
+  }
+
+  &__image-base {
+	margin-bottom: 16px;
+	text-align: center;
+  }
+
+  &__quest {
+	position: relative;
+	padding: 4px 10px 4px 44px;
+	margin: 4px 0 12px;
+	background: rgba(89, 81, 76, 0.1);
+	border-radius: 28px;
+	font-size: 16px;
+	font-weight: bold;
+
+	&:after {
+	  content: "";
+	  position: absolute;
+	  top: -4px;
+	  left: 0;
+	  width: 40px;
+	  height: 40px;
+	  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/zGQkYIjya8rp6pTw9BRPVXNtLM.png) no-repeat 0 0;
+	  background-size: 40px 40px;
+	}
+
+	a {
+	  font-size: 16px;
+	  font-weight: bold;
+	  color: $xivita__blue;
+
+	  &:hover {
+		color: $xivita__light-blue
+	  }
+	}
+  }
+
+  &__area {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	margin-bottom: 40px;
+
+	&--map {
+	  margin-right: 8px;
+	}
+  }
+
+  &__info {
+	-webkit-flex: 1;
+	flex: 1;
+	padding: 8px 8px 12px;
+	background: rgba(89, 81, 76, 0.05);
+	border-radius: 8px;
+
+	li {
+	  list-style: none !important;
+	  position: relative;
+	  padding-left: 24px;
+	  margin-bottom: 6px;
+	  font-size: 14px;
+
+	  &:after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 20px;
+		height: 20px;
+	  }
+	}
+
+	.level {
+	  list-style: none !important;
+
+	  &:after {
+		background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/bczm4t1hmLoeHhDX9rVXHc2ri4.png) no-repeat 0 0;
+		background-size: 20px 20px;
+	  }
+
+	  .npc {
+		list-style: none;
+
+		&:after {
+		  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/TeTvEvA6UbB47ehjgn-Hcchufg.png) no-repeat 0 0;
+		  background-size: 20px 20px;
+		}
+	  }
+
+	  .terms {
+		list-style: none;
+
+		&:after {
+		  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/3SPiXsIF7o07kxDObVb3iiWWTQ.png) no-repeat 0 0;
+		  background-size: 20px 20px;
+		}
+	  }
+	}
+  }
+
+  &__supplement {
+	padding: 16px;
+	background-color: #f2f2f2;
+	border-radius: 8px;
+
+	.txt_red {
+	  color: $xivita__red !important;
+	}
+  }
+
+  &__index_menu {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-bottom: 24px;
+
+	li {
+	  list-style: none !important;
+
+	  &:nth-child(even) {
+		margin-right: 0;
+	  }
+	}
+
+	a {
+	  position: relative;
+	  display: block;
+
+	  .on {
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		display: block;
+	  }
+	}
+  }
+
+  &__index_shop {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	&__list {
+	  width: 390px;
+	  border-radius: 8px;
+
+	  &:nth-child(odd) {
+		margin-right: 20px;
+	  }
+
+	  h3 {
+		padding: 4px;
+		text-align: center;
+		font-size: 16px;
+		color: $xivita__white;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+	  }
+
+	  ul {
+		list-style: none !important;
+		width: 100%;
+		min-height: 128px;
+		padding: 12px 16px;
+		box-sizing: border-box;
+	  }
+
+	  li {
+		font-size: 14px;
+		font-weight: bold;
+		list-style: none !important;
+	  }
+	}
+
+	&--entrance {
+	  margin-bottom: 16px;
+	  box-shadow: 0px 0px 0px 2px $xivita__azure-2 inset;
+	  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/lL3gx4YGbagkTnNqh0NaMGcvs8.png) no-repeat right bottom $xivita__azure-3;
+
+	  h3 {
+		background-color: $xivita__azure-2;
+	  }
+	}
+
+	&--card {
+	  margin-bottom: 16px;
+	  box-shadow: 0px 0px 0px 2px $xivita__azure-2 inset;
+	  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/7U3DwpDxsy5Cql1jtet2YgJomA.png) no-repeat right bottom $xivita__azure-3;
+
+	  h3 {
+		background-color: $xivita__azure-2;
+	  }
+	}
+
+	&--chocobo {
+	  margin-bottom: 16px;
+	  box-shadow: 0px 0px 0px 2px $xivita__chocobo_color inset;
+	  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/2UfXQZaMGU_Y0nHACcauJF4ng4.png) no-repeat right bottom $xivita__chocobo_color-2;
+
+	  h3 {
+		background-color: $xivita__chocobo_color;
+	  }
+	}
+
+	&--minion {
+	  margin-bottom: 16px;
+	  box-shadow: 0px 0px 0px 2px $xivita__minion_color inset;
+	  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/zYfKLfxq7T_qsbTPEMoAPSwJfU.png) no-repeat right bottom $xivita__minion_color-2;
+
+	  h3 {
+		background-color: $xivita__minion_color;
+	  }
+	}
+
+	&--wonder {
+	  margin-bottom: 0;
+	  box-shadow: 0px 0px 0px 2px $xivita__minion_color-3 inset;
+	  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/42J550G2k99RFnEv9OASDm4rNc.png) no-repeat right bottom $xivita__minion_color-4;
+
+	  h3 {
+		background-color: $xivita__minion_color-3;
+	  }
+	}
+  }
+
+  &__menu {
+	width: 888px;
+	margin: 0 auto;
+	padding: 16px 0 11px 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+	float: right;
+
+	&__scroll {
+	  position: relative;
+	  top: 0;
+	  left: 0;
+	  z-index: 10000;
+	  width: 100%;
+	  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/1Wci2QNzH4cmCcyPMqho_1o_fs.png) repeat;
+	}
+
+	&__inner {
+	  width: 960px;
+	  margin: 0 auto;
+	}
+
+	&__top {
+	  width: 68px;
+	  height: 84px;
+	  display: block;
+	  overflow: hidden;
+	  float: left;
+
+	  &:hover {
+		img {
+		  margin-top: -84px;
+		}
+	  }
+	}
+
+	li {
+	  list-style: none !important;
+	  display: table;
+	  width: 218px;
+	  height: 32px;
+	  margin: 0 2px 5px 2px;
+
+	  &:nth-child(4n) {
+		margin-right: 0;
+	  }
+	}
+
+	a {
+	  display: table-cell;
+	  vertical-align: middle;
+	  text-align: center;
+	  width: 100%;
+	  height: 100%;
+	  line-height: 1.2;
+	  -moz-border-radius: 4px;
+	  -webkit-border-radius: 4px;
+	  border-radius: 4px;
+	  color: $xivita__white;
+	  font-size: 14px;
+	  background-color: $xivita__blue-2;
+	  -moz-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.25) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset, 1px 0px 0px 0px rgba(255, 255, 255, 0.25) inset, -1px 0px 0px 0px rgba(0, 0, 0, 0.1) inset;
+	  -webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.25) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset, 1px 0px 0px 0px rgba(255, 255, 255, 0.25) inset, -1px 0px 0px 0px rgba(0, 0, 0, 0.1) inset;
+	  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.25) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset, 1px 0px 0px 0px rgba(255, 255, 255, 0.25) inset, -1px 0px 0px 0px rgba(0, 0, 0, 0.1) inset;
+	  -webkit-touch-callout: none;
+	  -webkit-tap-highlight-color: transparent;
+
+	  &:hover {
+		text-decoration: none;
+		color: $xivita__white;
+		background-color: #5990ff;
+		-moz-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.25) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset, 1px 0px 0px 0px rgba(255, 255, 255, 0.25) inset, -1px 0px 0px 0px rgba(0, 0, 0, 0.1) inset;
+		-webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.25) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset, 1px 0px 0px 0px rgba(255, 255, 255, 0.25) inset, -1px 0px 0px 0px rgba(0, 0, 0, 0.1) inset;
+		box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.25) inset, 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset, 1px 0px 0px 0px rgba(255, 255, 255, 0.25) inset, -1px 0px 0px 0px rgba(0, 0, 0, 0.1) inset;
+	  }
+
+	  .press {
+		color: $xivita__white;
+		background-color: $xivita__blue-2;
+		-moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1) inset;
+		-webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1) inset;
+		box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1) inset;
+		-webkit-touch-callout: none;
+		-webkit-tap-highlight-color: transparent;
+	  }
+
+	  .selected {
+		color: $xivita__white;
+		background-color: $xivita__orange;
+		-moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1) inset;
+		-webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1) inset;
+		box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1) inset;
+	  }
+	}
+  }
+
+  &__control {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	margin-bottom: 32px;
+
+	li {
+	  width: 213.333333333333333px;
+	  padding: 16px;
+	  text-align: center;
+	  border-right: solid 1px $xivita__goldsaucer__control-border;
+	  box-sizing: border-box;
+
+	  &:last-child {
+		border-right: none;
+	  }
+	}
+
+	strong {
+	  display: block;
+	  margin-bottom: 6px;
+	  font-size: 14px;
+	}
+
+	img {
+	  display: block;
+	  margin-bottom: 8px;
+	}
+
+	p {
+	  margin: 0;
+	  height: auto;
+	}
+
+	&__title {
+	  padding: 2px 8px;
+	  margin-bottom: 8px;
+	  background: rgba(89, 81, 76, 0.1);
+	  border-radius: 4px;
+	  color: $xivita__light-grey;
+	}
+
+	&__head {
+	  padding: 8px;
+	  background-color: rgba(89, 81, 76, 0.1);
+	  border-top-left-radius: 4px;
+	  border-bottom-left-radius: 4px;
+	  font-size: 14px;
+	  text-align: left;
+	}
+
+	&__text {
+	  padding: 8px;
+	  background-color: rgba(89, 81, 76, 0.05);
+	  border-top-right-radius: 4px;
+	  border-bottom-right-radius: 4px;
+	  font-size: 14px;
+	  text-align: left;
+	}
+  }
+
+  &__table {
+	width: 100%;
+	margin-bottom: 32px;
+
+	thead, th {
+	  background: rgba(89, 81, 76, 0.1);
+	  padding: 2px 2px 1px 2px;
+	  font-weight: normal;
+	  text-align: center;
+	  font-size: 14px;
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box;
+
+	  &:first-child {
+		border-top-left-radius: 4px;
+		border-bottom-left-radius: 4px;
+	  }
+
+	  &:nth-last-child(1) {
+		border-top-right-radius: 4px;
+		border-bottom-right-radius: 4px;
+	  }
+	}
+
+	tbody, td {
+	  vertical-align: middle;
+	  font-weight: normal;
+	  border-bottom: 1px solid $xivita__goldsaucer__control-border;
+	  text-align: left;
+	  padding-top: 8px;
+	  padding-bottom: 8px;
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box;
+	  font-size: 14px;
+	}
+
+	tr, td {
+	  &:first-child {
+		width: 64px;
+		padding-right: 2px;
+		padding-left: 8px;
+	  }
+
+	  &:last-child {
+		width: 400px;
+		padding-right: 8px;
+		padding-left: 8px;
+		box-sizing: border-box;
+	  }
+	}
+  }
+
+  &__annotation {
+	padding: 16px;
+	margin-bottom: 16px;
+	border-radius: 8px;
+	background-color: $xivita__white;
+	box-shadow: 0px 0px 0px 2px $xivita__red inset;
+
+	&__title {
+	  margin-bottom: 16px;
+	  color: #a62137;
+	  font-size: 14px;
+	  font-weight: bold;
+	}
+
+	p {
+	  color: $xivita__red;
+	}
+  }
+
+  &__rule {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	li {
+	  list-style: none !important;
+	  width: 318px;
+	  padding: 16px 16px 0 16px;
+	  margin-bottom: 16px;
+	  box-sizing: border-box;
+	  border-radius: 8px;
+	  background-color: $xivita__white;
+	  box-shadow: 0px 0px 0px 2px $xivita__goldsaucer__control-border inset;
+
+	  &:nth-child(odd) {
+		margin-right: 4px;
+	  }
+
+	  img {
+		display: block;
+		margin-bottom: 16px;
+	  }
+	}
+  }
+}

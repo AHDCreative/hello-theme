@@ -1,0 +1,45 @@
+.xivita{
+  &-hero{
+	&-container {
+	  max-width: 1240px;
+	  margin-left: auto;
+	  margin-right: auto;
+	  min-height: 50vh;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  flex-direction: column;
+	  padding: 4em 14px;
+	}
+	&-brand {
+	  font-size: 4em;
+	  color: $xivita__yellow;
+	  display: flex;
+	  align-items: center;
+	  font-weight: 600;
+	  &-logo {
+		padding-right: .333em;
+		height: 3em;
+		width: auto;
+	  }
+	  &-name {
+		font-family: Dragon Fire, Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, "Droid Serif", Times, "Source Serif Pro", serif;
+		font-size: 1em;
+		text-transform: uppercase;
+		margin-top: .5rem;
+		margin-bottom: unset;
+		line-height: 1;
+		letter-spacing: .2rem;
+	  }
+	}
+	&-slogan {
+	  text-align: center;
+	  margin-top: 1rem;
+	  padding-bottom: 4em;
+	  font-size: 1.77em;
+	  text-transform: uppercase;
+	  font-weight: 900;
+	  letter-spacing: .1em;
+	}
+  }
+}

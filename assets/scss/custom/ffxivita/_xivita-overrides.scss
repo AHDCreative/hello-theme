@@ -1,0 +1,162 @@
+@media screen and (max-width: 980px) {
+  .mahjong {
+	&__navi {
+	  .fixed {
+
+		position: fixed;
+		top: 101px;
+		left: 0;
+		margin-left: 0;
+	  }
+	}
+  }
+}
+
+.article {
+  &-post {
+	h1, h2, h3, h4, h5, h6 {
+	  text-decoration: none !important;
+	}
+  }
+}
+
+.rss-widget-icon {
+  display: none !important;
+}
+
+aside {
+  .widget_rss {
+	li {
+	  &:before {
+		margin-right: 10px;
+		content: '\f0ad';
+	  }
+	}
+  }
+}
+
+.wp-admin {
+  &-bar {
+	&-stats {
+	  display: none !important;
+	}
+  }
+}
+
+#wp-admin {
+  &-bar {
+	&-wp {
+	  &-logo {
+		display: none !important;
+	  }
+	}
+
+	&-search {
+	  display: none !important;
+	}
+
+	&-new {
+	  &-content {
+		display: none !important;
+	  }
+	}
+
+	&-stats {
+	  display: none !important;
+	}
+  }
+}
+
+#search-form {
+  display: none;
+}
+
+#wpnt-notes-unread-count {
+  display: none !important;
+}
+.verde {
+  color: $xivita__green !important;
+}
+.info_note {
+  color: $xivita__red;
+  font-size: inherit;
+}
+.clearfix{
+  &:after {
+	content: " ";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	font-size: 0.1em;
+	line-height: 0;
+	clear: both;
+  }
+}
+.lista{
+  &_decorazioni {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 48px;
+	padding: 2px;
+
+	ul {
+	  margin-block-start: 1em;
+	  margin-block-end: 1em;
+	  margin-inline-start: 0;
+	  margin-inline-end: 0;
+	  padding-inline-start: 40px;
+	}
+
+	li {
+	  width: 288px;
+	  list-style: none;
+	  margin-right: 10px;
+
+	  img {
+		width: 100%;
+		height: auto;
+		display: block;
+	  }
+	}
+  }
+}
+.info{
+  &__lead {
+	margin-bottom: 32px;
+	font-size: 18px;
+	font-weight: bold;
+	color: $xivita__pink;
+	text-align: center;
+  }
+  &__decorazioni {
+	display: flex;
+	border-radius: 16px;
+	overflow: hidden;
+	margin-bottom: 48px;
+  }
+}
+.box {
+  &__decorazione{
+	&__evento {
+	  padding: 12px 32px 10px;
+	  width: 50%;
+	  box-sizing: border-box;
+	  background: linear-gradient(to right, $xivita__gradient1__color-1 0%, $xivita__gradient1__color-2 100%);
+
+	  &:nth-child(2) {
+		background: linear-gradient(to right, $xivita__gradient2__color-1 0%, $xivita__gradient2__color-2 100%);
+	  }
+
+	  p {
+		margin-bottom: 6px;
+		font-size: 18px;
+		font-weight: bold;
+		color: $xivita__white;
+		text-align: center;
+		line-height: 1.5;
+		font-feature-settings: "palt";
+		font-family: 'Noto Sans', sans-serif;
+	  }
+	}
+  }
+}

@@ -1,3 +1,4 @@
+@import "assets/scss/custom/ffxivita-modules/globals/variables/xivita-colors";
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:700);
 .goldsaucer__visual {
   margin-bottom: 16px;
@@ -272,7 +273,7 @@
 	  padding: 4px;
 	  text-align: center;
 	  font-size: 16px;
-	  color: $xivita__whitefff;
+	  color: $xivita__white;
 	  border-top-left-radius: 8px;
 	  border-top-right-radius: 8px
 	}

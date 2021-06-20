@@ -41,20 +41,21 @@ aside {
   &-logo {
 	display: none !important;
   }
-}
 
-&-search {
-  display: none !important;
-}
-
-&-new {
-  &-content {
+  &-search {
 	display: none !important;
   }
-}
 
-&-stats {
-  display: none !important;
+  &-new {
+	&-content {
+	  display: none !important;
+	}
+  }
+
+  &-stats {
+	display: none !important;
+
+  }
 }
 
 #search-form {

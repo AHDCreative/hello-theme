@@ -1,61 +1,19 @@
 @import "xivita-colors";
 @import "xivita-overrides";
 @import "xivita-posts-pages";
-@import "chocobo";
-@import "goldsaucer";
-@import "mahjong";
-@import "pg";
-@import "rarity-durability";
-@import "social";
-@import "yaku";
-@import "xivita-home";
-@import "xivita-hero";
+@import "xivita__goldsaucer-chocobo";
+@import "xivita__goldsaucer";
+@import "xivita__goldsaucer-mahjong";
+@import "xivita__pg";
+@import "xivita__rarity-durability";
+@import "xivita__social";
+@import "xivita__goldsaucer-yaku";
+@import "xivita__home-sections";
+@import "xivita__home-hero";
 @import "xivita-letters";
-@import "quests";
-@import "tomestones";
-@import "cities";
-@import "grand-companies";
-@import "valentione2021";
-
-// Eden Authors Box
-.xivita-author {
-  .author-wrapper {
-	display: flex;
-	flex-wrap: wrap;
-  }
-
-  .author-entry {
-	flex: 0 1 22em;
-	margin: .5rem;
-	padding: 1em;
-	display: flex;
-	border-radius: 1em;
-	max-width: 80vw;
-  }
-
-  .author-avatar {
-	width: 6em;
-	height: auto;
-	padding: .5em;
-
-	img {
-	  border-radius: 50%;
-	}
-  }
-
-  .author-details-name {
-	font-family: Dragon Fire, Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, "Droid Serif", Times, "Source Serif Pro", serif;
-	letter-spacing: .1em;
-	text-transform: uppercase;
-  }
-
-  .author-details-character {
-	display: block;
-	font-size: .8em;
-  }
-
-  .author-social {
-	font-size: 1.35em;
-	margin-top: .5rem;
-  }
-}
+@import "xivita__quests";
+@import "xivita__tomestones";
+@import "xivita__cities";
+@import "xivita__grand-companies";
+@import "xivita__valentione-2021";
+@import "xivita__eden-box";

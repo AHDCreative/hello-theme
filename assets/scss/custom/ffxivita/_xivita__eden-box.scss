@@ -1,0 +1,41 @@
+.xivita{
+  &-author {
+	.author{
+	  &-wrapper{
+		display: flex;
+		flex-wrap: wrap;
+	  }
+	  &-entry {
+		flex: 0 1 22em;
+		margin: .5rem;
+		padding: 1em;
+		display: flex;
+		border-radius: 1em;
+		max-width: 80vw;
+	  }
+	  &-avatar {
+		width: 6em;
+		height: auto;
+		padding: .5em;
+		img {
+		  border-radius: 50%;
+		}
+	  }
+	  &-details{
+		&-name{
+		  font-family: Dragon Fire, Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, "Droid Serif", Times, "Source Serif Pro", serif;
+		  letter-spacing: .1em;
+		  text-transform: uppercase;
+		}
+		&-character {
+		  display: block;
+		  font-size: .8em;
+		}
+	  }
+	}
+	&-social {
+	  font-size: 1.35em;
+	  margin-top: .5rem;
+	}
+  }
+}

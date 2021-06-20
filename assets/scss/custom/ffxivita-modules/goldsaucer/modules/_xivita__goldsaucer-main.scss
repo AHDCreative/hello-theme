@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:700);
 .goldsaucer__visual {
   margin-bottom: 16px;
-  background: url(/lds/h/4/VigY6QjNn2m8mYaRQNc7Srxwwc.jpg) no-repeat top center $xivita__goldsaucer__visual;
+  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/VigY6QjNn2m8mYaRQNc7Srxwwc.jpg) no-repeat top center $xivita__goldsaucer__visual;
   position: relative;
   &-inner {
 	position: relative;
@@ -79,25 +79,25 @@
   font-weight: bold;
   .icon_arcana{
 	&:after{
-	  background: url(/lds/h/a/juCjg6OFG8mJgDMoMOVTYMD7lE.png) no-repeat 0 0;
+	  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/juCjg6OFG8mJgDMoMOVTYMD7lE.png) no-repeat 0 0;
 	  background-size: 32px 32px;
 	}
   }
   .icon_gates{
 	&:after {
-	  background: url(/lds/h/J/1IrBlVjKb6rKBzrKfiToKDN60M.png) no-repeat 0 0;
+	  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/1IrBlVjKb6rKBzrKfiToKDN60M.png) no-repeat 0 0;
 	  background-size: 32px 32px
 	}
   }
   .icon_shields{
 	&:after {
-	  background: url(/lds/h/3/xjAM2r3mc2d3k4Dy1rtHfemR4I.png) no-repeat 0 0;
+	  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/xjAM2r3mc2d3k4Dy1rtHfemR4I.png) no-repeat 0 0;
 	  background-size: 32px 32px
 	}
   }
   .icon_search_eyes {
 	&:after {
-	  background: url(/lds/h/C/WseDv1sA93DAc36uxc01gWQsXM.png) no-repeat 0 0;
+	  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/WseDv1sA93DAc36uxc01gWQsXM.png) no-repeat 0 0;
 	  background-size: 32px 32px
 	}
   }
@@ -150,7 +150,7 @@
 	left: 0;
 	width: 40px;
 	height: 40px;
-	background: url(/lds/h/_/zGQkYIjya8rp6pTw9BRPVXNtLM.png) no-repeat 0 0;
+	background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/zGQkYIjya8rp6pTw9BRPVXNtLM.png) no-repeat 0 0;
 	background-size: 40px 40px;
   }
   a {
@@ -196,25 +196,25 @@
 	}
 	.level{
 	  &:after{
-		background: url(/lds/h/m/bczm4t1hmLoeHhDX9rVXHc2ri4.png) no-repeat 0 0;
+		background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/bczm4t1hmLoeHhDX9rVXHc2ri4.png) no-repeat 0 0;
 		background-size: 20px 20px
 	  }
 	}
 	.place {
 	  &:after{
-		background: url(/lds/h/K/HQzx0PqXJYI6_IhWbVF644b4f0.png) no-repeat 0 0;
+		background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/HQzx0PqXJYI6_IhWbVF644b4f0.png) no-repeat 0 0;
 		background-size: 20px 20px
 	  }
 	}
 	.npc {
 	  &:after{
-		background: url(/lds/h/r/TeTvEvA6UbB47ehjgn-Hcchufg.png) no-repeat 0 0;
+		background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/TeTvEvA6UbB47ehjgn-Hcchufg.png) no-repeat 0 0;
 		background-size: 20px 20px
 	  }
 	}
 	.terms {
 	  &:after{
-		background: url(/lds/h/4/3SPiXsIF7o07kxDObVb3iiWWTQ.png) no-repeat 0 0;
+		background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/3SPiXsIF7o07kxDObVb3iiWWTQ.png) no-repeat 0 0;
 		background-size: 20px 20px;
 	  }
 	}
@@ -290,7 +290,7 @@
   &--entrance{
 	margin-bottom: 16px;
 	box-shadow: 0 0 0 2px $xivita__azure-2 inset;
-	background: url(/lds/h/P/lL3gx4YGbagkTnNqh0NaMGcvs8.png) no-repeat right bottom $xivita__azure-3;
+	background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/lL3gx4YGbagkTnNqh0NaMGcvs8.png) no-repeat right bottom $xivita__azure-3;
 	h3 {
 	  background-color: $xivita__azure-2
 	}
@@ -298,7 +298,7 @@
   &--card {
 	margin-bottom: 16px;
 	box-shadow: 0 0 0 2px $xivita__azure-2 inset;
-	background: url(/lds/h/w/7U3DwpDxsy5Cql1jtet2YgJomA.png) no-repeat right bottom $xivita__azure-3;
+	background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/7U3DwpDxsy5Cql1jtet2YgJomA.png) no-repeat right bottom $xivita__azure-3;
 	h3 {
 	  background-color: $xivita__azure-2
 	}
@@ -306,7 +306,7 @@
   &--chocobo {
 	margin-bottom: 16px;
 	box-shadow: 0 0 0 2px $xivita__chocobo_color inset;
-	background: url(/lds/h/A/2UfXQZaMGU_Y0nHACcauJF4ng4.png) no-repeat right bottom $xivita__chocobo_color-2;
+	background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/2UfXQZaMGU_Y0nHACcauJF4ng4.png) no-repeat right bottom $xivita__chocobo_color-2;
 	h3 {
 	  background-color: $xivita__chocobo_color;
 	}
@@ -314,7 +314,7 @@
   &--minion {
 	margin-bottom: 16px;
 	box-shadow: 0 0 0 2px $xivita__minion_color inset;
-	background: url(/lds/h/M/zYfKLfxq7T_qsbTPEMoAPSwJfU.png) no-repeat right bottom $xivita__minion_color-2;
+	background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/zYfKLfxq7T_qsbTPEMoAPSwJfU.png) no-repeat right bottom $xivita__minion_color-2;
 	h3 {
 	  background-color: $xivita__minion_color
 	}
@@ -322,7 +322,7 @@
   &--wonder {
 	margin-bottom: 0;
 	box-shadow: 0 0 0 2px $xivita__minion_color-3 inset;
-	background: url(/lds/h/k/42J550G2k99RFnEv9OASDm4rNc.png) no-repeat right bottom $xivita__minion_color-4;
+	background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/42J550G2k99RFnEv9OASDm4rNc.png) no-repeat right bottom $xivita__minion_color-4;
 	h3 {
 	  background-color: #e0c55a
 	}
@@ -347,7 +347,7 @@
 	left: 0;
 	z-index: 10000;
 	width: 100%;
-	background: url(/lds/h/1/1Wci2QNzH4cmCcyPMqho_1o_fs.png) repeat;
+	background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/1Wci2QNzH4cmCcyPMqho_1o_fs.png) repeat;
   }
   &__inner {
 	width: 960px;
@@ -565,5 +565,3 @@
 	}
   }
 }
-
-

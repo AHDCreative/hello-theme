@@ -1,0 +1,38 @@
+.xivita-blurbicon {
+  .blurbicon-wrapper {
+	color: inherit;
+	flex: 0 1 22em;
+	text-align: center;
+	margin: .5rem;
+	padding: 1em;
+	transition: background-color .3s,box-shadow .3s;
+  }
+  .blurbicon-container {
+	max-width: 1240px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 4em 14px 2em;
+  }
+  .blurbicon-blurbs {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+  }
+  .icon-blurbicon {
+	display: block;
+	margin: 1rem;
+	&-small {
+	  svg {
+		fill: $xivita__black;
+		height: 3em;
+		width: auto;
+	  }
+	}
+  }
+  .blurbicon-title {
+	text-transform: uppercase;
+	font-weight: 400;
+  }
+
+}

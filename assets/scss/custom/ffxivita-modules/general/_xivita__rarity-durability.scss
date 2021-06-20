@@ -22,8 +22,7 @@
 	  color: $xivita__txt-rarity_rare;
 	}
   }
-  &_durability{
-	&_calc {
+  &_durability_calc {
 	  &_000 {
 		color: $xivita__txt_durability_calc_000;
 	  }
@@ -38,4 +37,3 @@
 	  }
 	}
   }
-}

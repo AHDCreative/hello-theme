@@ -1,5 +1,4 @@
-.xy {
-  &-note {
+.xy-note {
 	background-color: $xivita__dark-grey;
 	border-radius: 1em;
 	margin-top: 1rem;
@@ -15,7 +14,7 @@
 	}
   }
 
-  &-icon {
+.xy-icon {
 	.icon {
 	  &-note {
 		display: inline-block;
@@ -28,4 +27,3 @@
 	  }
 	}
   }
-}

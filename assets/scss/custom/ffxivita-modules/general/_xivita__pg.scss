@@ -1,7 +1,4 @@
-.pg {
-  &__list{
-	&-circle{
-	  &__title {
+.pg__list-circle__title {
 		position: relative;
 		.anchor_point {
 		  position: absolute;
@@ -9,6 +6,3 @@
 		  display: block;
 		}
 	  }
-	}
-  }
-}

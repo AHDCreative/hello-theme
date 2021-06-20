@@ -1,13 +1,10 @@
-@import "../../reset/variables";
-@import "xivita-colors";
-.spazio {
-  &-live {
+@import "../../../reset/variables";
+@import "../globals/variables/xivita-colors";
+.spazio-live {
 	margin-bottom: 16px !important;
   }
-}
 
-.titolo {
-  &_live {
+.titolo_live {
 	&_grande {
 	  padding-bottom: 2px !important;
 	  color: $xivita__green-2 !important;
@@ -21,15 +18,13 @@
 	  font-weight: bold;
 	}
   }
-}
-.testo {
-  &_live {
+.testo_live {
 	font-family: $font-family-base;
 	margin-bottom: 16px;
 	font-size: $font-size-base;
 	line-height: 1.5;
   }
-}
+
 .lista {
   &_live {
 	ul {

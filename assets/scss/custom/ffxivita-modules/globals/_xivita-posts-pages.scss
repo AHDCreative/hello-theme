@@ -1,7 +1,6 @@
-@import "xivita-colors";
+@import "variables/xivita-colors";
 
-.page {
-  &-id {
+.page-id {
 	&-20058 {
 	  .entry-title {
 		display: none !important;
@@ -20,10 +19,9 @@
 	  }
 	}
   }
-}
 
-.post {
-  &-id {
+
+.post-id {
 	&-21311 {
 	  h4 {
 		text-decoration: underline;
@@ -48,4 +46,3 @@
 	  }
 	}
   }
-}

@@ -216,7 +216,7 @@
 	  &:after {
 		content: "";
 		position: absolute;
-		top: 0;
+		top: 10px;
 		left: 0;
 		width: 20px;
 		height: 20px;
@@ -227,7 +227,7 @@
 	  list-style: none !important;
 
 	  &:after {
-		background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/bczm4t1hmLoeHhDX9rVXHc2ri4.png) no-repeat 0 0;
+		background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/bczm4t1hmLoeHhDX9rVXHc2ri4.png) no-repeat 0 0 !important;
 		background-size: 20px 20px;
 	  }
 
@@ -235,7 +235,16 @@
 		list-style: none;
 
 		&:after {
-		  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/TeTvEvA6UbB47ehjgn-Hcchufg.png) no-repeat 0 0;
+		  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/TeTvEvA6UbB47ehjgn-Hcchufg.png) no-repeat 0 0 !important;
+		  background-size: 20px 20px;
+		}
+	  }
+
+	  .place {
+		list-style: none;
+
+		&:after {
+		  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/HQzx0PqXJYI6_IhWbVF644b4f0.png) no-repeat 0 0 !important;
 		  background-size: 20px 20px;
 		}
 	  }
@@ -244,7 +253,7 @@
 		list-style: none;
 
 		&:after {
-		  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/3SPiXsIF7o07kxDObVb3iiWWTQ.png) no-repeat 0 0;
+		  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/3SPiXsIF7o07kxDObVb3iiWWTQ.png) no-repeat 0 0 !important;
 		  background-size: 20px 20px;
 		}
 	  }

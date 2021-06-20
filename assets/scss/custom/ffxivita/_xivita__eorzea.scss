@@ -1,0 +1,183 @@
+@import "../../reset/variables";
+.eorzea_visual {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.eorzea_head {
+  .lname {
+	float: left;
+  }
+  .eorzea_level{
+	span {
+	  font-size: 18px;
+	}
+	.lname_name {
+	  font-size: 16px;
+	  font-weight: normal;
+	}
+  }
+}
+.eorzea_info {
+  border: solid 1px #3c3c3c;
+  background-color: #333333;
+  text-align: left;
+  margin-bottom: 10px;
+  ttl {
+	padding: 3px 5px;
+	border-bottom: solid 1px #3c3c3c;
+	background-color: #1f1f1f;
+	background: #1f1f1f;
+	color: #bfa34c;
+  }
+  .ttl_sub {
+	padding: 3px 5px;
+	margin-bottom: 6px;
+	border-bottom: solid 1px #3c3c3c;
+	border-top: none;
+	background: #2e2e2e;
+  }
+  .ttl_sub_inner {
+	padding: 3px 5px;
+	margin-bottom: 6px;
+	border-bottom: solid 1px #3c3c3c;
+	border-top: solid 1px #3c3c3c;
+	background: #2e2e2e;
+  }
+  .pd_5 {
+	padding: 0 5px 5px 5px;
+  }
+  .limittime {
+	margin-bottom: 11px;
+  }
+}
+.table_type_inner {
+  margin: 0 auto 10px 0;
+  border: solid 1px #1c1c1c;
+  background: #333333;
+  .type_ttl {
+	padding: 3px 5px;
+	margin-bottom: 2px;
+	border-bottom: solid 1px #3c3c3c;
+	color: #cdcdcd;
+	background-color: #1f1f1f;
+  }
+  .type_ttl_inner {
+	padding: 3px 5px;
+	color: #cdcdcd;
+	background-color: #1f1f1f;
+	.inner_brd {
+	  border: 1px solid #3c3c3c;
+	}
+	.type_ttl_inner_brd_top {
+	  padding: 3px 5px;
+	  color: #cdcdcd;
+	  background-color: #1f1f1f;
+	  border-top: solid 1px #3c3c3c;
+	}
+	li {
+	  margin-top: 3px;
+	  margin-bottom: 2px;
+	}
+	.cell_count {
+	  padding: 6px 0 5px;
+	  border-top: solid 1px #3c3c3c;
+	}
+	.cell_odd {
+	  background: #2e2e2e;
+	}
+	.value {
+	  line-height: 1.4;
+	}
+	.type_list {
+	  width: 164px;
+	  min-height: 32px;
+	  float: left;
+	  padding-left: 34px;
+	  padding-top: 4px;
+	  margin-left: 8px;
+	  .txt_yellow {
+		line-height: 1;
+	  }
+	}
+	.silver {
+	  border: solid 1px #737880;
+	  .type_ttl {
+		background: #505459;
+	  }
+	}
+	.gold {
+	  border: solid 1px #8c7a48;
+	  .type_ttl {
+		background: #665833;
+		color: #ffe699;
+	  }
+	}
+  }
+}
+.sys_treasure_box_tab {
+  .treasure {
+	background: url(/lds/h/O/cTRcAhv0QQfyhTNqUzWe8jiLR8.png) no-repeat 10px center;
+	padding-left: 50px;
+	line-height: 32px;
+  }
+  a {
+	font-weight: bold;
+  }
+}
+.sys_treasure_box_popup {
+  width: 646px;
+  .treasure_items_wrap {
+	border-top: 1px solid #3c3c3c;
+	border-left: 1px solid #3c3c3c;
+	width: 568px;
+	margin: 0 auto;
+  }
+  .even {
+	background: #2e2e2e;
+  }
+  .odd {
+	background: #333333;
+  }
+  .item_box {
+	width: 279px;
+	display: table-cell;
+	vertical-align: middle;
+	border-bottom: 1px solid #3c3c3c;
+	border-right: 1px solid #3c3c3c;
+	padding: 2px 4px 2px 0;
+	.ic_reflection_box {
+	  float: none;
+	}
+	div {
+	  display: table-cell;
+	  vertical-align: middle;
+	}
+	div + div {
+	  padding-left: 5px;
+	}
+  }
+  .treasure_allagan {
+	width: 264px;
+	min-height: 22px;
+	padding: 5px 10px;
+	float: left;
+	div {
+	  padding-right: 8px;
+	}
+	div + div {
+	  padding-right: 0;
+	  display: table-cell;
+	  vertical-align: middle;
+	}
+  }
+}
+.gold.table_type_inner{
+  .sys_treasure_box_tab.treasure {
+	background-image: url(/lds/h/S/Gm9ITT0g_S0n6opFe0HEyILu80.png);
+  }
+}
+.silver.table_type_inner{
+  .sys_treasure_box_tab.treasure {
+	background-image: url(/lds/h/C/lwgkujSRjp4MM4OcivtS4fGKrE.png);
+  }
+}

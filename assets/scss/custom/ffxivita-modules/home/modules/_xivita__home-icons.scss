@@ -1,38 +1,40 @@
-.xivita-blurbicon {
-  .blurbicon-wrapper {
-	color: inherit !important;
-	flex: 0 1 22em !important;
-	text-align: center !important;
-	margin: .5rem !important;
-	padding: 1em !important;
-	transition: background-color .3s,box-shadow .3s !important;
-  }
-  .blurbicon-container {
-	max-width: 1240px !important;
-	margin-left: auto !important;
-	margin-right: auto !important;
-	padding: 4em 14px 2em !important;
-  }
-  .blurbicon-blurbs {
-	display: grid !important;
-	justify-content: center !important;
-	align-items: center !important;
-	flex-wrap: wrap !important;
-  }
-  .icon-blurbicon {
-	display: block !important;
-	margin: 1rem !important;
-	&-small {
-	  svg {
-		fill: $xivita__black;
-		height: 3em !important;
-		width: auto !important;
-	  }
+.blurbicon-wrapper {
+  color: inherit !important;
+  flex: 0 1 22em !important;
+  text-align: center !important;
+  margin: .5rem !important;
+  padding: 1em !important;
+  transition: background-color .3s, box-shadow .3s !important;
+}
+
+.blurbicon-container {
+  max-width: 1240px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 4em 14px 2em !important;
+}
+
+.blurbicon-blurbs {
+  display: grid !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+}
+
+.icon-blurbicon {
+  display: block !important;
+  margin: 1rem !important;
+
+  &-small {
+	svg {
+	  fill: $xivita__black;
+	  height: 3em !important;
+	  width: auto !important;
 	}
   }
-  .blurbicon-title {
-	text-transform: uppercase !important;
-	font-weight: 400 !important;
-  }
+}
 
+.blurbicon-title {
+  text-transform: uppercase !important;
+  font-weight: 400 !important;
 }

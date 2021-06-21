@@ -11,7 +11,7 @@
 	fill: $xivita__black !important;
 	height: 1em !important;
 	width: auto !important;
-	margin-top: 15px !important;
+	margin-top: 9px !important;
   }
   a {
 	display: inline-flex !important;
@@ -33,10 +33,10 @@
 	fill: $xivita__black !important;
 	height: 1em !important;
 	width: auto !important;
-	margin-top: 15px !important;
+	margin-top: 0 !important;
   }
 }
-.pp-multiple-authors-layout-boxed{
+.pp-multiple-authors-wrapper, multiple-authors-target-shortcode, pp-multiple-authors-layout-boxed{
   .avatar {
 	position: static !important;
 	float: left !important;

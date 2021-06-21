@@ -36,7 +36,7 @@
 		margin-right: 48px
 	  }
 
-	  mb18 {
+	  .mb18 {
 		margin-bottom: 18px
 	  }
 
@@ -377,7 +377,6 @@
 		&__box {
 		  text-align: center !important;
 		  box-sizing: border-box !important;
-		  padding: 0 38px !important;
 		}
 		&__armor {
 		  width: 440px !important;
@@ -465,7 +464,7 @@
 
 	.bg_main-art {
 	  padding-top: 270px;
-	  background: url(/lds/h/b/GnAmxFpIomKbnGb8-aBxcfwwls.jpg) no-repeat center top;
+	  background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/GnAmxFpIomKbnGb8-aBxcfwwls.jpg) no-repeat center top;
 	  -moz-background-size: 500px auto;
 	  -o-background-size: 500px auto;
 	  -webkit-background-size: 500px auto;

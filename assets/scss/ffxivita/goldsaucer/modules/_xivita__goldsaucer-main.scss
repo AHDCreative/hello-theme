@@ -1,3 +1,5 @@
+@import "assets/scss/reset/variables";
+@import "assets/scss/ffxivita/globals/variables/xivita-colors";
 .postid-20880{
   list-style: none !important;
   @media (orientation: landscape) and (max-width: $screen-xl + $screen-diff){
@@ -38,7 +40,7 @@
 	  padding-bottom: 120px;
 	  position: relative;
 	  font-size: 14px;
-	  a. p, li, span. strong, i {
+	  a, p, li, span, strong, i {
 		font-size: inherit
 	  }
 	  p {

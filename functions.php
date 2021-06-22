@@ -116,11 +116,29 @@ if ( ! function_exists( 'hello_elementor_scripts_styles' ) ) {
 			);
 		}
 
-		/* Load FFXIVITA Style */
+		/* Load FFXIVITA Style s*/
 		if ( apply_filters( 'hello_elementor_enqueue_theme_style', true ) ) {
 			wp_enqueue_style(
 				'hello-elementor-ffxivita-style',
 				get_template_directory_uri() . '/ffxivita' . $min_suffix . '.css',
+				[],
+				HELLO_ELEMENTOR_VERSION
+			);
+		}
+
+		if ( apply_filters( 'hello_elementor_enqueue_theme_style', true ) ) {
+			wp_enqueue_style(
+				'hello-elementor-ffxivita-specials',
+				get_template_directory_uri() . '/ffxivita-specials' . $min_suffix . '.css',
+				[],
+				HELLO_ELEMENTOR_VERSION
+			);
+		}
+
+		if ( apply_filters( 'hello_elementor_enqueue_theme_style', true ) ) {
+			wp_enqueue_style(
+				'hello-elementor-ffxivita-authors',
+				get_template_directory_uri() . '/ffxivita-authors' . $min_suffix . '.css',
 				[],
 				HELLO_ELEMENTOR_VERSION
 			);

@@ -1,40 +1,75 @@
-.blurbicon-wrapper {
-  color: inherit !important;
-  flex: 0 1 22em !important;
-  text-align: center !important;
-  margin: .5rem !important;
-  padding: 1em !important;
-  transition: background-color .3s, box-shadow .3s !important;
-}
-
-.blurbicon-container {
-  max-width: 1240px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding: 4em 14px 2em !important;
-}
-
-.blurbicon-blurbs {
-  display: grid !important;
-  justify-content: center !important;
-  align-items: center !important;
-  flex-wrap: wrap !important;
-}
-
-.icon-blurbicon {
-  display: block !important;
-  margin: 1rem !important;
-
-  &-small {
-	svg {
-	  fill: $xivita__black;
-	  height: 3em !important;
-	  width: auto !important;
+.xivita-blurbicon {
+  background-size: cover;
+  .blurbicon-container {
+	max-width: 1240px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 4em 14px 2em
+  }
+  .blurbicon-blurbs {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap
+  }
+  .blurbicon-title {
+	text-transform: uppercase;
+	font-weight: 400
+  }
+  .blurbicon-wrapper {
+	color: inherit;
+	flex: 0 1 22em;
+	text-align: center;
+	margin: .5rem;
+	padding: 1em;
+	transition: background-color .3s, box-shadow .3s;
+	&:hover {
+	  color: $xivita__white;
+	  background-color: #1a1a1a;
+	  box-shadow: 10px 10px 5px 0 rgba(26, 26, 26, .75);
+	  transition: background-color .2s, box-shadow .2s
 	}
   }
+  .blurbicon-link {
+	color: inherit
+  }
 }
-
-.blurbicon-title {
-  text-transform: uppercase !important;
-  font-weight: 400 !important;
+.xivita-blurbrefer {
+  background-size: cover;
+  .blurbrefer-container {
+	max-width: 1240px;
+	margin: 2rem auto;
+	padding: 4em 14px 2em
+  }
+  .blurbrefer-blurbs {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap
+  }
+  .blurbrefer-title {
+	text-transform: uppercase;
+	font-weight: 400
+  }
+  .blurbrefer-wrapper {
+	flex: 0 1 22em;
+	text-align: center;
+	margin: 1rem
+  }
+  .blurbrefer-header{
+	&:after {
+	  content: " ";
+	  display: block;
+	  margin-top: 1rem;
+	  width: 12em;
+	  height: .2em;
+	  background-color: var(--primary);
+	  margin-left: auto;
+	  margin-right: auto
+	}
+  }
+  .blurbrefer-image {
+	padding-left: 3em;
+	padding-right: 3em
+  }
 }

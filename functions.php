@@ -115,6 +115,16 @@ if ( ! function_exists( 'hello_elementor_scripts_styles' ) ) {
 				HELLO_ELEMENTOR_VERSION
 			);
 		}
+
+		/* Load FFXIVITA Style */
+		if ( apply_filters( 'hello_elementor_enqueue_theme_style', true ) ) {
+			wp_enqueue_style(
+				'hello-elementor-ffxivita-style',
+				get_template_directory_uri() . '/ffxivita' . $min_suffix . '.css',
+				[],
+				HELLO_ELEMENTOR_VERSION
+			);
+		}
 	}
 }
 add_action( 'wp_enqueue_scripts', 'hello_elementor_scripts_styles' );

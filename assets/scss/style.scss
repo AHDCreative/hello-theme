@@ -42,3 +42,6 @@
 // List
 @import "reset/list";
 
+html {
+  line-height: unset !important;
+}

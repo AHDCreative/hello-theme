@@ -4,9 +4,11 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap&subset=japanese);
 
 
-.postid-22855 {
-  	line-height: 1.5 !important;
-	@media (max-width: $screen-xl - $screen-diff) and (orientation:landscape){
+  .postid-22855 {
+	li {
+	  list-style: none !important;
+	}
+	@media (orientation:landscape){
 	  #header_area {
 		position: relative;
 		z-index: 5000
@@ -142,6 +144,7 @@
 	  }
 
 	  .content__wrapper {
+		line-height: unset !important;
 		position: relative !important;
 		width: 960px !important;
 		height: 1% !important;
@@ -332,6 +335,9 @@
 		padding-left: 24px !important;
 		margin-bottom: 4px !important;
 		font-size: 14px !important;
+
+	  }
+	  .content__event-info__level {
 		background: url(https://ffxivita-css.s3.eu-south-1.amazonaws.com/img/HVcSUcvhHn4q88J3Ve5HXvK60w.png) left top no-repeat;
 		background-size: 20px 20px !important;
 	  }
@@ -456,6 +462,7 @@
 	  }
 	}
   @media (max-width: $screen-sm - $screen-diff) and (orientation: portrait){
+
 	.bg_content_wrapper {
 
 	  background: #fff;

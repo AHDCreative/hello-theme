@@ -1,75 +1,75 @@
 .xivita-blurbicon {
-  background-size: cover;
+  background-size: cover !important;
   .blurbicon-container {
-	max-width: 1240px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 4em 14px 2em
+	max-width: 1240px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	padding: 4em 14px 2em !important
   }
   .blurbicon-blurbs {
-	display: flex;
-	justify-content: center;
-	align-items: flex-start;
-	flex-wrap: wrap
+	display: flex !important;
+	justify-content: center !important;
+	align-items: flex-start !important;
+	flex-wrap: wrap !important
   }
   .blurbicon-title {
-	text-transform: uppercase;
-	font-weight: 400
+	text-transform: uppercase !important;
+	font-weight: 400 !important
   }
   .blurbicon-wrapper {
-	color: inherit;
-	flex: 0 1 22em;
-	text-align: center;
-	margin: .5rem;
-	padding: 1em;
-	transition: background-color .3s, box-shadow .3s;
+	color: inherit !important;
+	flex: 0 1 22em !important;
+	text-align: center !important;
+	margin: .5rem !important;
+	padding: 1em !important;
+	transition: background-color .3s, box-shadow .3s; !important
 	&:hover {
-	  color: $xivita__white;
-	  background-color: #1a1a1a;
-	  box-shadow: 10px 10px 5px 0 rgba(26, 26, 26, .75);
-	  transition: background-color .2s, box-shadow .2s
+	  color: $xivita__white !important;
+	  background-color: #1a1a1a !important;
+	  box-shadow: 10px 10px 5px 0 rgba(26, 26, 26, .75) !important;
+	  transition: background-color .2s, box-shadow .2s !important
 	}
   }
   .blurbicon-link {
-	color: inherit
+	color: inherit !important
   }
 }
 .xivita-blurbrefer {
-  background-size: cover;
+  background-size: cover !important;
   .blurbrefer-container {
-	max-width: 1240px;
-	margin: 2rem auto;
-	padding: 4em 14px 2em
+	max-width: 1240px !important;
+	margin: 2rem auto !important;
+	padding: 4em 14px 2em !important
   }
   .blurbrefer-blurbs {
-	display: flex;
-	justify-content: center;
-	align-items: flex-start;
-	flex-wrap: wrap
+	display: flex !important;
+	justify-content: center !important;
+	align-items: flex-start !important;
+	flex-wrap: wrap !important
   }
   .blurbrefer-title {
-	text-transform: uppercase;
-	font-weight: 400
+	text-transform: uppercase !important;
+	font-weight: 400 !important
   }
   .blurbrefer-wrapper {
-	flex: 0 1 22em;
-	text-align: center;
-	margin: 1rem
+	flex: 0 1 22em !important;
+	text-align: center !important;
+	margin: 1rem !important
   }
   .blurbrefer-header{
 	&:after {
-	  content: " ";
-	  display: block;
-	  margin-top: 1rem;
-	  width: 12em;
-	  height: .2em;
-	  background-color: var(--primary);
-	  margin-left: auto;
-	  margin-right: auto
+	  content: " " !important;
+	  display: block !important;
+	  margin-top: 1rem !important;
+	  width: 12em !important;
+	  height: .2em !important;
+	  background-color: var(--primary) !important;
+	  margin-left: auto !important;
+	  margin-right: auto !important
 	}
   }
   .blurbrefer-image {
-	padding-left: 3em;
-	padding-right: 3em
+	padding-left: 3em !important;
+	padding-right: 3em !important
   }
 }

@@ -639,3 +639,369 @@
 	}
   }
 }
+
+@media (max-width: $screen-md - $screen-diff) and (orientation: portrait) {
+  .goldsaucer__visual-inner {
+	position: relative;
+	width: 100%;
+	height: 150px;
+	background: url(https://img.finalfantasyxiv.com//lds/h/J/bkiVMCIF6yrKgP1u8I6wNMuKfg.jpg) no-repeat top center #1b0f27;
+	background-size: 500px auto;
+  }
+  .goldsaucer__visual {
+	h1 {
+	  text-indent: -9999px;
+	}
+
+	p {
+	  text-align: center;
+	  font-size: 12px;
+	  line-height: 1.5;
+	}
+  }
+  .goldsaucer__visual-text {
+	padding: 4px 8px;
+	background: #2e230e;
+	color: #ccaa66;
+  }
+  .goldsaucer__wrapper {
+	padding: 16px 0 0;
+
+	p {
+	  padding: 0 12px;
+	  margin-bottom: 16px;
+	}
+
+	a {
+	  color: #4c7ee8;
+	}
+  }
+  .goldsaucer__wrapper a,
+  .goldsaucer__wrapper p,
+  .goldsaucer__wrapper li,
+  .goldsaucer__wrapper span,
+  .goldsaucer__wrapper strong,
+  .goldsaucer__wrapper i {
+	font-size: inherit;
+  }
+  .goldsaucer__sp {
+	margin-right: 12px;
+	margin-left: 12px;
+
+	p {
+	  margin-bottom: 16px;
+
+	  &.indent {
+		padding-left: 14px;
+	  }
+	}
+
+	a {
+	  color: #4c7ee8;
+	}
+  }
+  .goldsaucer__title {
+	width: 320px;
+	margin: 0 auto 8px;
+	text-align: center;
+
+	img {
+	  width: 100%;
+	  height: auto;
+	}
+  }
+  .goldsaucer__sm_head {
+	position: relative;
+	margin-bottom: 16px;
+	font-size: 14px;
+	font-weight: bold;
+
+	&.icon_arcana {
+	  &:after {
+		background: url(https://img.finalfantasyxiv.com//lds/h/a/juCjg6OFG8mJgDMoMOVTYMD7lE.png) no-repeat 0 0;
+		background-size: 32px 32px;
+	  }
+	}
+
+	&.icon_gates {
+	  &:after {
+		background: url(https://img.finalfantasyxiv.com//lds/h/J/1IrBlVjKb6rKBzrKfiToKDN60M.png) no-repeat 0 0;
+		background-size: 32px 32px;
+	  }
+	}
+
+	&.icon_shields {
+	  &:after {
+		background: url(https://img.finalfantasyxiv.com//lds/h/3/xjAM2r3mc2d3k4Dy1rtHfemR4I.png) no-repeat 0 0;
+		background-size: 32px 32px;
+	  }
+	}
+
+	&.icon_search_eyes {
+	  &:after {
+		background: url(https://img.finalfantasyxiv.com//lds/h/C/WseDv1sA93DAc36uxc01gWQsXM.png) no-repeat 0 0;
+		background-size: 32px 32px;
+	  }
+	}
+  }
+  .goldsaucer__sm_circle {
+	position: relative;
+	padding-left: 1em;
+	font-size: 14px;
+	font-weight: bold;
+
+	&:after {
+	  content: "";
+	  display: block;
+	  width: 8px;
+	  height: 8px;
+	  border-radius: 4px;
+	  background: #999999;
+	  position: absolute;
+	  left: 0;
+	  top: 50%;
+	  margin-top: -4px;
+	}
+  }
+  .goldsaucer__icon {
+	padding-left: 36px;
+
+	&:after {
+	  content: '';
+	  position: absolute;
+	  top: 50%;
+	  left: 0;
+	  width: 32px;
+	  height: 32px;
+	  margin-top: -16px;
+	}
+  }
+  .goldsaucer__image-base {
+	margin-bottom: 16px;
+	text-align: center;
+
+	img {
+	  max-width: 100%;
+	  height: auto;
+	}
+  }
+  .goldsaucer__quest {
+	position: relative;
+	padding: 10px 8px 10px 44px;
+	margin-bottom: 8px;
+	background: rgba(89, 81, 76, 0.05);
+
+	&:after {
+	  content: '';
+	  position: absolute;
+	  top: 4px;
+	  left: 8px;
+	  width: 32px;
+	  height: 32px;
+	  background: url(https://img.finalfantasyxiv.com//lds/h/_/zGQkYIjya8rp6pTw9BRPVXNtLM.png) no-repeat 0 0;
+	  background-size: 32px 32px;
+	}
+
+	a {
+	  font-size: 14px;
+	  color: #2c21a6;
+	}
+  }
+  .goldsaucer__info {
+	margin: 0 12px 32px;
+	padding: 8px 8px 12px;
+	background: rgba(89, 81, 76, 0.05);
+	border-radius: 8px;
+
+	li {
+	  position: relative;
+	  padding-left: 24px;
+	  margin-bottom: 6px;
+	  font-size: 14px;
+
+	  &:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 20px;
+		height: 20px;
+	  }
+
+	  &.level {
+		&.fr {
+		  &:after {
+			background: url(https://img.finalfantasyxiv.com//lds/h/N/bZva4Txda-ZPDnwt-3qG2Sddr8.png) no-repeat 0 0;
+			background-size: 20px 20px;
+		  }
+		}
+
+		&.de {
+		  &:after {
+			background: url(https://img.finalfantasyxiv.com//lds/h/t/QaEcmWczWbpYQzGlzrsZfd6IIw.png) no-repeat 0 0;
+			background-size: 20px 20px;
+		  }
+		}
+	  }
+
+	  &.place {
+		&:after {
+		  background: url(https://img.finalfantasyxiv.com//lds/h/K/HQzx0PqXJYI6_IhWbVF644b4f0.png) no-repeat 0 0;
+		  background-size: 20px 20px;
+		}
+	  }
+
+	  &.npc {
+		&:after {
+		  background: url(https://img.finalfantasyxiv.com//lds/h/r/TeTvEvA6UbB47ehjgn-Hcchufg.png) no-repeat 0 0;
+		  background-size: 20px 20px;
+		}
+	  }
+
+	  &.terms {
+		&:after {
+		  background: url(https://img.finalfantasyxiv.com//lds/h/4/3SPiXsIF7o07kxDObVb3iiWWTQ.png) no-repeat 0 0;
+		  background-size: 20px 20px;
+		}
+	  }
+	}
+  }
+  .goldsaucer__info li.level {
+	&:after {
+	}
+
+	background: url(https://img.finalfantasyxiv.com//lds/h/m/bczm4t1hmLoeHhDX9rVXHc2ri4.png) no-repeat 0 0;
+	background-size: 20px 20px;
+  }
+
+.goldsaucer__supplement {
+  padding: 16px 12px !important;
+  background-color: #f2f2f2;
+
+  .txt_red {
+	color: #a62137 !important;
+  }
+}
+
+.goldsaucer__index_menu {
+  margin-bottom: 24px;
+
+  li {
+	width: 296px;
+	margin: 0 auto 8px;
+  }
+
+  a {
+	position: relative;
+	display: block;
+
+	.on {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  opacity: 0;
+	  display: block;
+	}
+
+	&.press {
+	  -webkit-touch-callout: none;
+	  -webkit-tap-highlight-color: transparent;
+	}
+  }
+}
+
+.goldsaucer__index_shop {
+  padding-bottom: 32px;
+}
+
+.goldsaucer__index_shop__list {
+  margin: 16px 16px 0;
+  border-radius: 8px;
+
+  h3 {
+	padding: 8px;
+	text-align: center;
+	font-size: 14px;
+	color: #ffffff;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+  }
+
+  ul {
+	width: 100%;
+	min-height: 110px;
+	padding: 8px 8px 8px;
+	box-sizing: border-box;
+  }
+
+  li {
+	margin-bottom: 8px;
+	font-size: 14px;
+	font-weight: bold;
+  }
+}
+
+.goldsaucer__index_shop--entrance {
+  margin-bottom: 16px;
+  box-shadow: 0px 0px 0px 2px #91c2f2 inset;
+  background: url(https://img.finalfantasyxiv.com//lds/h/P/lL3gx4YGbagkTnNqh0NaMGcvs8.png) no-repeat right bottom #e1edfa;
+  background-size: 96px 96px;
+
+  h3 {
+	background-color: #91c2f2;
+  }
+}
+
+.goldsaucer__index_shop--card {
+  margin-bottom: 16px;
+  box-shadow: 0px 0px 0px 2px #91c2f2 inset;
+  background: url(https://img.finalfantasyxiv.com//lds/h/w/7U3DwpDxsy5Cql1jtet2YgJomA.png) no-repeat right bottom #e1edfa;
+  background-size: 96px 96px;
+
+  h3 {
+	background-color: #91c2f2;
+  }
+}
+
+.goldsaucer__index_shop--chocobo {
+  margin-bottom: 0;
+  box-shadow: 0px 0px 0px 2px #e6b673 inset;
+  background: url(https://img.finalfantasyxiv.com//lds/h/A/2UfXQZaMGU_Y0nHACcauJF4ng4.png) no-repeat right bottom #faefe1;
+  background-size: 96px 96px;
+
+  h3 {
+	background-color: #e6b673;
+  }
+}
+
+.goldsaucer__index_shop--minion {
+  margin-bottom: 0;
+  box-shadow: 0px 0px 0px 2px #b6aaf2 inset;
+  background: url(https://img.finalfantasyxiv.com//lds/h/M/zYfKLfxq7T_qsbTPEMoAPSwJfU.png) no-repeat right bottom #e5e1fa;
+  background-size: 96px 96px;
+
+  h3 {
+	background-color: #b6aaf2;
+  }
+}
+
+.goldsaucer__index_shop--wonder {
+  margin-bottom: 0;
+  box-shadow: 0px 0px 0px 2px #e0c55a inset;
+  background: url(https://img.finalfantasyxiv.com//lds/h/k/42J550G2k99RFnEv9OASDm4rNc.png) no-repeat right bottom #faf5e1;
+  background-size: 96px 96px;
+
+  h3 {
+	background-color: #e0c55a;
+  }
+}
+
+.goldsaucer__header {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  text-indent: -9999px;
+}
+
+}
+

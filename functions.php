@@ -98,6 +98,15 @@ if ( ! function_exists( 'hello_elementor_scripts_styles' ) ) {
 		$enqueue_basic_style = apply_filters_deprecated( 'elementor_hello_theme_enqueue_style', [ true ], '2.0', 'hello_elementor_enqueue_style' );
 		$min_suffix          = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 
+		if ( apply_filters( 'hello_elementor_enqueue_theme_style', true ) ) {
+			wp_enqueue_style(
+				'hello-elementor-ffxivita-style',
+				get_template_directory_uri() . '/ffxivita-index' . $min_suffix . '.css',
+				[],
+				HELLO_ELEMENTOR_VERSION
+			);
+		}
+
 		if ( apply_filters( 'hello_elementor_enqueue_style', $enqueue_basic_style ) ) {
 			wp_enqueue_style(
 				'hello-elementor',
@@ -117,15 +126,6 @@ if ( ! function_exists( 'hello_elementor_scripts_styles' ) ) {
 		}
 
 		/* Load FFXIVITA Style s*/
-		if ( apply_filters( 'hello_elementor_enqueue_theme_style', true ) ) {
-			wp_enqueue_style(
-				'hello-elementor-ffxivita-style',
-				get_template_directory_uri() . '/ffxivita-index' . $min_suffix . '.css',
-				[],
-				HELLO_ELEMENTOR_VERSION
-			);
-		}
-
 		if ( apply_filters( 'hello_elementor_enqueue_theme_style', true ) ) {
 			wp_enqueue_style(
 				'hello-elementor-ffxivita-specials',

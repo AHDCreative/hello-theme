@@ -9,6 +9,16 @@
 	  margin-left: 0 !important;
 	}
   }
+  .ic_recipe_expert {
+	font-size: inherit;
+	color: inherit;
+	background: url(https://img.finalfantasyxiv.com/lds/h/7/4etxU-zKE3zGl9ZuI0PwhgU_JU.png);
+	width: 20px;
+	height: 20px;
+	background-size: 20px 20px;
+	display: inline-block;
+	vertical-align: text-bottom;
+  }
 }
 // H overrides
 .article-post {
@@ -156,5 +166,5 @@ aside {
   }
 }
 
-// Every Li has no style
+
 
